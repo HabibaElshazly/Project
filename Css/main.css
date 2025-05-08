@@ -1,0 +1,409 @@
+* , *::after , *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+section {
+    margin-top: 70px;
+}
+
+h1 {
+    color: navy;
+}
+
+i {
+  color:teal;
+
+}
+
+/* ...............................header.......................................... */
+
+header {
+   background-image: url(./../img/cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.navbar.scrolled {
+    background-color: white;
+    transition: background-color 0.5s ease 0s;
+}
+
+img {
+    width: 150px;
+}
+.collapse ul {
+    margin-right: 50%;
+}
+.nav-item a {
+    color: teal;
+}
+.nav-item {
+    font-size: 14px;
+    padding: 15px;
+}
+.nav-item a:hover {
+    color: navy;
+    transition: all 0.5s;
+}
+
+.nav-link.active {
+    color: navy;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .content h1 {
+    color: white;
+    }
+
+  .content button {
+    padding: 20px 50px;
+    font-size: 15px;
+    color: navy;
+    background-color: white ;
+    border: white 2px solid;
+    border-radius: 5%;
+  }
+
+  .content button:hover {
+    background-color: rgb(77, 88, 98);
+    transition: all 0.5s;
+  }
+
+/* ...............................section 1................................. */
+
+.aboutt {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 50px 20px;
+}
+
+.aboutt h1 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.aboutt p {
+    font-size: 14px;
+    width: 70%;
+    margin: auto;
+}
+
+.aboutt i {
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.aboutt:hover i {
+    color: navy;
+    transition: all 0.5s;
+}
+
+
+/* ...............................section 2................................. */
+
+.sec2 {
+    background-image: linear-gradient(rgb(0,0,0,0.6) , rgb(0,0,0,0.6)) ,
+    url(./../img/work.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+
+.reveal-item h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.reveal-item {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .reveal-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .reveal-item {
+    transition-delay: var(--delay, 0s);
+  }
+  
+.explore {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 50px 20px;
+}
+
+.explore h1 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.explore p {
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.explore i {
+  color:teal;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.explore:hover i {
+    color: navy;
+    transition: all 0.5s;
+}
+
+
+/* ...............................section 3................................. */
+.reveal-item2 {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .reveal-item2.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .reveal-item2 {
+    transition-delay: var(--delay, 0s);
+  }
+
+.reveal-item2 {
+    text-align: center;
+}
+
+.reveal-item2 h1 {
+    margin-bottom: 40px;
+}
+
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+}
+
+.card-body span {
+    margin-left: 20px;
+}
+
+.card-body i {
+  color:teal;
+}
+
+
+.card-body button {
+    padding: 10px 25px;
+    font-size: 15px;
+    color: black;
+    background-color:lightskyblue;
+    border: white 2px solid;
+    border-radius: 10%;
+  }
+
+  .card-body button:hover {
+    color: navy;
+    background-color:white;
+    border: navy 2px solid;
+    transition: all 0.5s;
+  }
+
+  /* ...............................section 4.......................................... */
+
+  .bg {
+    background-color: rgba(200, 200, 192, 0.149);
+  }
+
+  .bg h1 {
+    padding-top: 30px;
+  }
+
+  .bg p {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .sec4 {
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+  }
+
+  .sec4 i {
+    color:teal;
+    font-size: 50px;
+    padding-top: 30px;
+  }
+
+  .sec4 h1 , p {
+    text-align: center;
+  }
+
+  .sec4 p {
+    color: black;
+  }
+
+  .dev {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+  }
+
+    /* ...............................section 5.......................................... */
+    .color {
+      width: 100%;
+      padding-top:100px ;
+    }
+
+    .color h1 , h2 {
+      color: beige;
+    }
+
+    .color p {
+      padding-bottom: 100px;
+      color: white;
+      font-size: 20px;
+    }
+
+    .color img {
+      width: 10%;
+    }
+
+    .geometric-bg {
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(60deg, #0f2027, #203a43, #2c5364);
+      background-size: 400% 400%;
+      animation: moveBackground 10s ease infinite;
+    }
+    
+    @keyframes moveBackground {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    
+    .shape {
+      position: absolute;
+      display: block;
+      opacity: 0.2;
+      animation: floatShape 20s linear infinite;
+    }
+    
+    .circle {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #ffffff;
+      top: 10%;
+      left: 20%;
+    }
+    
+    .square {
+      width: 40px;
+      height: 40px;
+      background: #ffcc00;
+      top: 30%;
+      left: 70%;
+    }
+    
+    .triangle {
+      width: 0;
+      height: 0;
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      border-bottom: 40px solid #00ffcc;
+      top: 60%;
+      left: 40%;
+    }
+
+    @keyframes floatShape {
+      0% {
+        transform: translateY(0px) rotate(0deg);
+        opacity: 0.2;
+      }
+      50% {
+        transform: translateY(-100px) rotate(180deg);
+        opacity: 0.4;
+      }
+      100% {
+        transform: translateY(0px) rotate(360deg);
+        opacity: 0.2;
+      }
+    }
+    /* ...............................footer.......................................... */
+
+    .end {
+        margin-top: 40px;
+        background-color: rgb(200, 200, 234);
+        display: flex;
+        gap:20px
+    }
+
+    .end p {
+        text-align: right;
+    }
+
+    .end1 {
+      margin-left: 20px;
+      padding: 20px;
+      flex: 1;
+  }
+
+    .end1 h4 {
+        padding:20px ;
+    }
+
+    .end1 li {
+      list-style:none;
+      display: inline-block;
+  }
+    .end1 li i {
+      color:teal;
+  }
+    
+    .end1 i {
+        padding: 15px;
+        color:teal;
+    }
+
